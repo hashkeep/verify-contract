@@ -2,7 +2,7 @@ var extension = new window.RemixExtension();
 var compileMsg = "Compiling smart contract, please wait...";
 
 async function do_post(data, cb) {
-  var etherscanApi = "https://api.etherscan.io/api";
+  var etherscanApi = "https://api-testnet.bscscan.com/";
   var contractData = data[0];
   var data = {
       apikey: '2GTVV7HHTK8CCG2NFK5NRXYPY6DKINJH48',                     //A valid API-Key is required        
